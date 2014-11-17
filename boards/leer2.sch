@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4388,9 +4388,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="215.9" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="134.62" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="!SS!/OC1A/PE4"/>
-<wire x1="246.38" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="134.62" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="139.7" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="137.16" x2="254" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="254" y1="137.16" x2="254" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="TXD0/OC0D/PE3"/>
+<wire x1="254" y1="139.7" x2="261.62" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -4402,40 +4406,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="220.98" y1="111.76" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="129.54" x2="251.46" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="129.54" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="TXD0/OC0D/PE3"/>
-<wire x1="251.46" y1="139.7" x2="261.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="129.54" x2="251.46" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="!SS!/OC1A/PE4"/>
+<wire x1="251.46" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,190.5,223.52,IC1,AVCC1,,,,"/>
-<approved hash="104,1,190.5,193.04,IC1,GND9,GND,,,"/>
-<approved hash="104,1,190.5,200.66,IC1,VCC1,+3V3,,,"/>
-<approved hash="104,1,190.5,198.12,IC1,VCC,+3V3,,,"/>
-<approved hash="104,1,190.5,172.72,IC1,GND1,GND,,,"/>
-<approved hash="104,1,190.5,175.26,IC1,GND2,GND,,,"/>
-<approved hash="104,1,190.5,177.8,IC1,GND3,GND,,,"/>
-<approved hash="104,1,190.5,180.34,IC1,GND4,GND,,,"/>
-<approved hash="104,1,190.5,182.88,IC1,GND5,GND,,,"/>
-<approved hash="104,1,190.5,185.42,IC1,GND6,GND,,,"/>
-<approved hash="104,1,190.5,187.96,IC1,GND7,GND,,,"/>
-<approved hash="104,1,190.5,203.2,IC1,VCC2,+3V3,,,"/>
-<approved hash="104,1,190.5,205.74,IC1,VCC3,+3V3,,,"/>
-<approved hash="104,1,190.5,208.28,IC1,VCC4,+3V3,,,"/>
-<approved hash="104,1,190.5,210.82,IC1,VCC5,+3V3,,,"/>
-<approved hash="104,1,190.5,213.36,IC1,VCC6,+3V3,,,"/>
-<approved hash="104,1,190.5,215.9,IC1,VCC7,+3V3,,,"/>
-<approved hash="204,1,190.5,220.98,IC1,AVCC,,,,"/>
-<approved hash="104,1,190.5,190.5,IC1,GND8,GND,,,"/>
-<approved hash="202,1,114.3,48.26,XO1,P1,,,,"/>
-<approved hash="104,1,114.3,40.64,XO1,P2,GND,,,"/>
-<approved hash="104,1,132.08,48.26,XO1,P4,+3V3,,,"/>
-<approved hash="113,1,339.09,47.9383,LED0,,,,,"/>
-<approved hash="113,1,339.09,37.7783,LED1,,,,,"/>
-<approved hash="113,1,294.453,45.8512,ANALOG_OUT,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 </errors>
 </schematic>
