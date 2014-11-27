@@ -4810,7 +4810,8 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="gnd" width="0.3048" drill="0.5">
+<clearance class="0" value="0.2032"/>
 </class>
 </classes>
 <parts>

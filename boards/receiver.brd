@@ -645,7 +645,8 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="gnd" width="0.3048" drill="0.5">
+<clearance class="0" value="0.2032"/>
 </class>
 </classes>
 <designrules name="Eagle_WEdirekt_150_check">
@@ -1566,13 +1567,11 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="24.875" y1="30.125" x2="23.6" y2="30.125" width="0.254" layer="16"/>
 <wire x1="23.6" y1="30.125" x2="22.225" y2="28.75" width="0.254" layer="16"/>
 <wire x1="22.225" y1="28.75" x2="19.25" y2="28.75" width="0.254" layer="16"/>
-<wire x1="14.125" y1="23.375" x2="12.875" y2="23.375" width="0.254" layer="16"/>
+<wire x1="13.875" y1="23.375" x2="12.875" y2="23.375" width="0.254" layer="16"/>
 <via x="12.875" y="23.375" extent="1-16" drill="0.5"/>
 <wire x1="12.875" y1="23.375" x2="10.8" y2="21.3" width="0.254" layer="1"/>
 <wire x1="10.8" y1="21.3" x2="6.5" y2="21.3" width="0.254" layer="1"/>
-<wire x1="14.125" y1="23.375" x2="14.625" y2="23.875" width="0.254" layer="16"/>
-<wire x1="14.625" y1="23.875" x2="14.625" y2="24.125" width="0.254" layer="16"/>
-<wire x1="14.625" y1="24.125" x2="19.25" y2="28.75" width="0.254" layer="16"/>
+<wire x1="13.875" y1="23.375" x2="19.25" y2="28.75" width="0.254" layer="16"/>
 </signal>
 <signal name="N$29">
 <contactref element="R5" pad="1"/>
@@ -1667,7 +1666,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="14.25" y1="44" x2="14.25" y2="50.915" width="0.3048" layer="16"/>
 <wire x1="16.665" y1="50.915" x2="17.625" y2="50.915" width="0.3048" layer="16"/>
 <wire x1="17.2" y1="35.6" x2="17.2" y2="36.05" width="0.254" layer="16"/>
-<wire x1="14.25" y1="38" x2="14.25" y2="35.9" width="0.254" layer="16"/>
+<wire x1="14.25" y1="38" x2="14.25" y2="35.9" width="0.3048" layer="16"/>
 <wire x1="14.25" y1="35.9" x2="13.95" y2="35.6" width="0.254" layer="16"/>
 <wire x1="26.486" y1="27.6" x2="26.696" y2="27.39" width="0.254" layer="16"/>
 <wire x1="17.585" y1="42" x2="16.25" y2="42" width="0.3048" layer="1"/>
@@ -2613,34 +2612,34 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <approved hash="19,1,96cfcebbb81a774b"/>
 <approved hash="19,1,7857d88369c18d23"/>
 <approved hash="19,1,e19ef1516df56c00"/>
-<approved hash="19,1,73c2e8ab8196429a"/>
 <approved hash="19,1,ab100f24b9fbcdd5"/>
 <approved hash="19,1,72a6ef65ba907b94"/>
+<approved hash="19,1,73c2e8ab8196429a"/>
 <approved hash="19,1,e5243a98916f0468"/>
 <approved hash="19,1,9c9ad8d7b6709921"/>
-<approved hash="19,1,2da2e61c9debc0ee"/>
-<approved hash="5,1,64261eeef21ae3f0"/>
 <approved hash="19,1,05d241292af58f7e"/>
+<approved hash="5,1,64261eeef21ae3f0"/>
+<approved hash="19,1,2da2e61c9debc0ee"/>
 <approved hash="19,1,dc06c84e4aecacbf"/>
 <approved hash="5,1,9851140a2f32a28a"/>
 <approved hash="19,1,b13d1177cfd7c780"/>
 <approved hash="19,1,0ad11299103bb66b"/>
-<approved hash="5,16,63c30991b460f6f6"/>
 <approved hash="19,16,71d915921730a860"/>
+<approved hash="5,16,63c30991b460f6f6"/>
 <approved hash="19,16,96cfcebbb81a774b"/>
 <approved hash="19,16,7857d88369c18d23"/>
 <approved hash="19,16,e19ef1516df56c00"/>
 <approved hash="19,16,ab100f24b9fbcdd5"/>
 <approved hash="19,16,aa57fa1d9dbf2cec"/>
-<approved hash="5,16,23c06e370aa257a1"/>
 <approved hash="5,16,2e716e370aa25a10"/>
+<approved hash="5,16,23c06e370aa257a1"/>
 <approved hash="5,16,24b56e2f0aba50d4"/>
-<approved hash="5,16,21576e330aa25532"/>
 <approved hash="5,16,27266e330aa25343"/>
+<approved hash="5,16,21576e330aa25532"/>
 <approved hash="19,16,9c9ad8d7b6709921"/>
 <approved hash="5,16,67c3c3d3ef2223f6"/>
-<approved hash="5,16,d5e2661bae0fe9e7"/>
 <approved hash="5,16,cf7e521b9a17c763"/>
+<approved hash="5,16,d5e2661bae0fe9e7"/>
 <approved hash="5,16,407ddd1b9e17c360"/>
 <approved hash="5,16,5ae1e91baa0fede4"/>
 <approved hash="5,16,317bac1b9e17c366"/>
