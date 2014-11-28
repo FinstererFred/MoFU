@@ -2027,8 +2027,9 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="381" y1="124.46" x2="302.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="381" y1="124.46" x2="381" y2="83.82" width="0.1524" layer="91"/>
 <junction x="381" y="124.46"/>
-<wire x1="381" y1="208.28" x2="381" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="381" y1="208.28" x2="381" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="S2" gate="A" pin="3"/>
+<wire x1="381" y1="177.8" x2="381" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="223.52" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="210.82" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="E"/>
@@ -2040,6 +2041,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="83.82" x2="307.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="83.82" x2="307.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="381" y1="177.8" x2="360.68" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="177.8" x2="360.68" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="S7" gate="A" pin="3"/>
+<wire x1="360.68" y1="182.88" x2="370.84" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="213.36" x2="93.98" y2="205.74" width="0.1524" layer="91"/>

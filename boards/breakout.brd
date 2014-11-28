@@ -748,8 +748,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="15.5" y1="4.65" x2="16" y2="4.65" width="0.254" layer="1"/>
 <wire x1="16" y1="4.65" x2="16.875" y2="4.65" width="0.254" layer="1"/>
 <wire x1="3.7" y1="31.55" x2="4.25" y2="31" width="0.254" layer="16"/>
-<wire x1="21.855" y1="4.605" x2="23.375" y2="6.125" width="0.254" layer="1"/>
-<wire x1="23.375" y1="6.125" x2="23.375" y2="6.9" width="0.254" layer="1"/>
+<wire x1="23.375" y1="7.75" x2="23.375" y2="6.9" width="0.254" layer="1"/>
 <wire x1="3.7" y1="35.6" x2="3.7" y2="31.55" width="0.254" layer="16"/>
 <wire x1="7.2" y1="35.6" x2="7.2" y2="31.55" width="0.254" layer="16"/>
 <wire x1="5.25" y1="6.775" x2="6.625" y2="6.775" width="0.254" layer="16"/>
@@ -774,13 +773,19 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="7.5" y1="10.125" x2="3" y2="10.125" width="0.254" layer="16"/>
 <wire x1="3" y1="10.125" x2="3" y2="18.73" width="0.254" layer="16"/>
 <wire x1="3" y1="18.73" x2="9.27" y2="25" width="0.254" layer="16"/>
-<wire x1="16.875" y1="4.65" x2="21.81" y2="4.65" width="0.254" layer="1"/>
-<wire x1="21.81" y1="4.65" x2="21.855" y2="4.605" width="0.254" layer="1"/>
-<wire x1="16" y1="4.65" x2="16" y2="11.375" width="0.254" layer="1"/>
-<wire x1="16" y1="11.375" x2="8" y2="11.375" width="0.254" layer="1"/>
+<wire x1="16.875" y1="4.65" x2="19.06" y2="4.65" width="0.254" layer="1"/>
+<wire x1="16" y1="4.65" x2="16" y2="12" width="0.254" layer="1"/>
+<wire x1="16" y1="12" x2="8" y2="11.375" width="0.254" layer="1"/>
 <wire x1="8" y1="11.375" x2="8" y2="23.73" width="0.254" layer="1"/>
 <wire x1="8" y1="23.73" x2="9.27" y2="25" width="0.254" layer="1"/>
-<wire x1="7.2" y1="35.6" x2="6.375" y2="50.915" width="0" layer="19" extent="16-16"/>
+<wire x1="23.375" y1="7.75" x2="19.06" y2="7.75" width="0.254" layer="1"/>
+<wire x1="19.06" y1="7.75" x2="19.06" y2="4.65" width="0.254" layer="1"/>
+<contactref element="S7" pad="3"/>
+<wire x1="7.2" y1="35.6" x2="5.835" y2="42" width="0" layer="19" extent="16-16"/>
+<wire x1="6.375" y1="50.915" x2="4.25" y2="48.79" width="0.254" layer="1"/>
+<wire x1="4.25" y1="48.79" x2="4.25" y2="43.625" width="0.254" layer="1"/>
+<wire x1="4.25" y1="43.625" x2="5.835" y2="42.04" width="0.254" layer="1"/>
+<wire x1="5.835" y1="42.04" x2="5.835" y2="42" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R1" pad="1"/>
@@ -811,7 +816,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="20.625" y1="6.4" x2="20.25" y2="6.9" width="0.254" layer="1"/>
 <wire x1="20.625" y1="2.875" x2="20.125" y2="2.375" width="0.254" layer="1"/>
 <wire x1="20.125" y1="2.375" x2="18.625" y2="2.375" width="0.254" layer="1"/>
-<via x="18.125" y="2.875" extent="1-16" drill="0.5"/>
+<via x="18.125" y="2.875" extent="1-16" drill="1"/>
 <wire x1="18.125" y1="2.875" x2="18.625" y2="2.375" width="0.254" layer="1"/>
 <wire x1="18.125" y1="2.875" x2="16.625" y2="4.375" width="0.254" layer="16"/>
 <wire x1="16.625" y1="4.375" x2="11.765" y2="4.375" width="0.254" layer="16"/>
@@ -840,10 +845,9 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="10.5" y1="8.475" x2="11.375" y2="8.475" width="0.254" layer="16"/>
 <wire x1="11.375" y1="8.475" x2="12.125" y2="8.475" width="0.254" layer="16"/>
 <wire x1="4.23" y1="13.375" x2="4.25" y2="10.625" width="0.254" layer="16"/>
-<wire x1="4.25" y1="10.625" x2="8.125" y2="10.645" width="0.254" layer="16"/>
-<wire x1="8.125" y1="10.645" x2="11.355" y2="10.645" width="0.254" layer="16"/>
-<wire x1="11.355" y1="10.645" x2="11.375" y2="9.75" width="0.254" layer="16"/>
 <wire x1="11.375" y1="9.75" x2="11.375" y2="8.475" width="0.254" layer="16"/>
+<wire x1="11.375" y1="9.75" x2="10.5" y2="10.625" width="0.254" layer="16"/>
+<wire x1="10.5" y1="10.625" x2="4.25" y2="10.625" width="0.254" layer="16"/>
 </signal>
 <signal name="PB3">
 <contactref element="R21" pad="2"/>
@@ -854,8 +858,9 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="3.625" y1="8.475" x2="4.5" y2="8.475" width="0.254" layer="16"/>
 <wire x1="4.5" y1="8.475" x2="5.25" y2="8.475" width="0.254" layer="16"/>
 <wire x1="1.69" y1="13.375" x2="1.69" y2="9.565" width="0.254" layer="16"/>
-<wire x1="1.69" y1="9.565" x2="4.5" y2="9.5" width="0.254" layer="16"/>
 <wire x1="4.5" y1="9.5" x2="4.5" y2="8.475" width="0.254" layer="16"/>
+<wire x1="4.5" y1="9.5" x2="4.435" y2="9.565" width="0.254" layer="16"/>
+<wire x1="4.435" y1="9.565" x2="1.69" y2="9.565" width="0.254" layer="16"/>
 </signal>
 <signal name="N$42">
 <contactref element="V-SENSE" pad="2"/>
@@ -889,8 +894,8 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="9.31" y1="13.375" x2="18.5" y2="13.375" width="0.254" layer="1"/>
 <wire x1="18.5" y1="13.375" x2="21.125" y2="10.75" width="0.254" layer="1"/>
 <wire x1="21.125" y1="10.75" x2="21.125" y2="8.625" width="0.254" layer="1"/>
-<wire x1="21.125" y1="8.625" x2="20.275" y2="8.625" width="0.254" layer="1"/>
 <wire x1="20.275" y1="8.625" x2="20.25" y2="8.6" width="0.254" layer="1"/>
+<wire x1="20.275" y1="8.625" x2="21.125" y2="8.625" width="0.254" layer="1"/>
 <wire x1="22" y1="8.6" x2="21.15" y2="8.6" width="0.254" layer="1"/>
 <wire x1="21.15" y1="8.6" x2="21.125" y2="8.625" width="0.254" layer="1"/>
 </signal>
